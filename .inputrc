@@ -1,1 +1,3 @@
+$include /etc/inputrc
 "\C-i": menu-complete
+
