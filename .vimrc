@@ -10,3 +10,8 @@ nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
 
 " Remove whitespace with F5
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
+:highlight ExtraWhitespace ctermbg=red guibg=red
+
+" Show trailing whitespace:
+:match ExtraWhitespace /\s\+$/
