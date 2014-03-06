@@ -1,3 +1,4 @@
 $include /etc/inputrc
 "\C-i": menu-complete
+"\e[Z": menu-complete-backward
 
