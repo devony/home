@@ -1,5 +1,5 @@
 set number
-set tabstop=2 shiftwidth=2 expandtab smarttab
+set tabstop=2 shiftwidth=2 expandtab smarttab si
 set incsearch ignorecase hlsearch smartcase
 set showmatch mat=2
 colorscheme wombat
@@ -15,3 +15,4 @@ nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
 " Show trailing whitespace:
 :match ExtraWhitespace /\s\+$/
+
