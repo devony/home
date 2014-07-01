@@ -115,3 +115,6 @@ export PS1='\w\[\033[31m\]$(__git_ps1 "[%s]")\[\033[01;34m\]$\[\033[00m\] '
 
 source ~/.aws/credentials
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
