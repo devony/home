@@ -88,7 +88,6 @@ alias l='ls -CF'
 alias c='cd /home/devon/code'
 alias cu='cd /home/devon/code/centrio-ui'
 alias d='cd /home/devon/code/dogcheese'
-alias git=hub
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -113,7 +112,9 @@ fi
 # Showing the Git branch my prompt
 export PS1='\w\[\033[31m\]$(__git_ps1 "[%s]")\[\033[01;34m\]$\[\033[00m\] '
 
-source ~/.aws/credentials
+if [ -f ~/.aws/credentials ]; then
+    source ~/.aws/credentials
+fi
 
 
 ### Added by the Heroku Toolbelt
