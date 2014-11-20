@@ -86,8 +86,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias c='cd /home/devon/code'
-alias cu='cd /home/devon/code/centrio-ui'
-alias d='cd /home/devon/code/dogcheese'
+alias cu='cd /home/devon/code/blend/centrio-ui'
+alias d='cd /home/devon/code/blend/dogcheese'
+alias b='cd /home/devon/code/blend'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -119,3 +120,4 @@ fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+export PATH=$PATH:/usr/local/go/bin
