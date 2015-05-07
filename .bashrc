@@ -117,7 +117,11 @@ if [ -f ~/.aws/credentials ]; then
     source ~/.aws/credentials
 fi
 
+if [ -f /usr/bin/vmware-user ]; then
+    /usr/bin/vmware-user
+fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
+export NODE_ENV=dev
